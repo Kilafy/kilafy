@@ -20,3 +20,9 @@ export const navigation = [
     url: "#contacto",
   },
 ];
+
+export const heroContent = {
+  title:
+    "Impulsamos tu visión con tecnología de vanguardia. En Kilafy convertimos tus ideas en experiencias digitales excepcionales.",
+  background: "/assets/images/IMG_20.webp",
+};

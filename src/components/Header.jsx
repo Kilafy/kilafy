@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import { navigation } from "../constants/index";
+import { navigation } from "../constants";
 import logo from "/assets/logo/svg/Logo_Negro_Sin_Fondo.svg";
 import MenuSvg from "./design/MenuSvg";
 
@@ -28,7 +28,7 @@ const Header = () => {
       className={`fixed top-0 left-0 w-full z-50 border-b border-color-3 border-opacity-5 
         ${openMenu ? "bg-color-2/100" : "bg-color-2/90 backdrop-blur-sm"} 
         lg:backdrop-blur-sm`}>
-      <div className="flex items-center px-5 justify-between lg:px-7 xl:px-10 xl:py-1">
+      <div className="flex items-center px-5 justify-between lg:px-7 xl:px-10 lg:py-1">
         <a className="block xl:mr-8" href="#hero">
           <img src={logo} width={140} height={70} alt="Kilafy" />
         </a>
