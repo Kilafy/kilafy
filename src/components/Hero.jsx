@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="relative w-full h-full">
           <img
             src={heroContent.background}
-            alt="Hero"
+            alt={heroContent.backgroundAlt}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-color-3 via-color-1/5 to-color-4/100 opacity-30"></div>
@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
 
       <div className="flex items-center justify-center w-full min-h-fit text-center p-8 m-8 text-color-2 z-10 bg-color-3/60 rounded-sm">
-        <h1 className="h3">{heroContent.title}</h1>
+        <h1 className="h1">{heroContent.title}</h1>
       </div>
     </div>
   );

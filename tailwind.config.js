@@ -56,7 +56,7 @@ const textComponents = Object.keys(baseFontSizes).reduce((acc, key) => {
 
 // Other components (Example)
 const otherComponents = {
-  ".container": {
+  ".containerExample": {
     "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-[60px] xl:max-w-[87.5rem]":
       {},
   },
