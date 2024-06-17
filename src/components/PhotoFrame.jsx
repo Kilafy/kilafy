@@ -26,7 +26,7 @@
  * @returns {JSX.Element} The rendered PhotoFrame component.
  */
 
-import "./design/css/PhotoFrameShadows.css";
+import "./design/css/photoFrameShadows.css";
 
 const positionClasses = {
   topLeft: {

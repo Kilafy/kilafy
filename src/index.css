@@ -14,8 +14,18 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding-top: 71px;
+}
+
 @layer base {
   body {
     @apply font-raleway text-base text-color-3;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 79px;
   }
 }
