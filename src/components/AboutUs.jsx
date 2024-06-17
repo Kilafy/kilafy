@@ -8,7 +8,7 @@ const renderTeamMember = () => {
       {aboutUsContent.team.map((member) => (
         <div
           key={member.id}
-          className="flex flex-col items-center justify-center  h-full my-4">
+          className="flex flex-col items-center justify-center h-full my-4 md:my-0">
           <PhotoFrame
             imgSrc={member.photo}
             imgWidth={aboutUsContent.teamPhotoSize.width}
@@ -41,13 +41,13 @@ const AboutUs = () => {
             {aboutUsContent.description}
           </p>
         </div>
-        <h2 className="h2 text-center w-full p-4 my-16 md:my-20">
+        <h2 className="h2 text-center w-full p-4 my-16 mt-24 md:my-20 md:mt-36">
           {aboutUsContent.title}
         </h2>
 
         {renderTeamMember()}
 
-        <div className="flex w-full justify-between gap-3 px-4 mb-16 md:mb-20 md:justify-center md:gap-6 lg:gap-12 xl:gap-16">
+        <div className="flex w-full justify-between gap-3 px-4 mb-16 md:mb-0 md:justify-center md:gap-6 lg:gap-12 xl:gap-16">
           <div className="flex justify-center items-center aspect-square w-1/3 max-h-[324px] max-w-[324px] p-12 bg-color-1 rounded-lg md:p-20 md:w-1/2">
             <img src={cross} />
           </div>

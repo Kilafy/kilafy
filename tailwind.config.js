@@ -87,6 +87,9 @@ export default {
           4: "#6D72C3",
         },
       },
+      screens: {
+        '3xl': '1900px',
+      },
     },
   },
   plugins: [

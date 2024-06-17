@@ -74,7 +74,51 @@ export const aboutUsContent = {
     width: "324px",
     height: "324px",
   },
-  teamDescription: "Contamos con un equipo de profesionales de la universidad EAFIT apasionados y eficientes, \
+  teamDescription:
+    "Contamos con un equipo de profesionales de la universidad EAFIT apasionados y eficientes, \
     cada uno con habilidades únicas que abarcan todo el espectro del desarrollo de software. Trabajamos en \
     conjunto para ofrecer soluciones integrales y personalizadas a cada uno de nuestros clientes.",
+};
+
+export const servicesContent = {
+  banner: {
+    src: "/assets/images/backgrounds/IMG_19.webp",
+    width: "1024px",
+    height: "600px",
+    frameRounded: "rounded-lg",
+    frameColor: "bg-color-4",
+    framePosition: "bottomLeft",
+    childrenTitle: "¡Conoce nuestros servicios!",
+  },
+  title: "Nuestros paquetes",
+  services: [
+    {
+      id: "0",
+      name: "Página web básica",
+      description:
+        "Este paquete ofrece una página web tipo landing page dando una solución completa \
+        y profesional para cualquier empresa que necesite una presencia en línea efectiva para \
+        darse a conoceren internet.",
+    },
+    {
+      id: "1",
+      name: "Aplicación Web",
+      description:
+        "En Kilafy, ofrecemos un paquete integral de desarrollo de aplicativos web diseñado \
+        para transformar tus ideas en aplicaciones funcionales y robustas. Algunos ejemplos son \
+        tiendas en línea, gestores de contenido o cualquier sistema personalizado que usted requiera.",
+    },
+    {
+      id: "2",
+      name: "Aplicación Móvil",
+      description:
+        "En Kilafy, transformamos tus ideas en aplicaciones móviles innovadoras y eficientes \
+        en realidad para que puedas llevar tu negocio al alcance de tus clientes en cualquier \
+        momento y lugar.",
+    },
+  ],
+  moreInfo: {
+    text: "Más información",
+    url: "#contacto",
+  },
 };

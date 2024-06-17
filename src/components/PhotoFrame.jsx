@@ -58,18 +58,23 @@ const PhotoFrame = ({
   frameRounded = "rounded-lg",
   frameColor = "bg-color-1",
   framePosition = "topLeft",
+  children,
 }) => {
   const { position, margin } = positionClasses[framePosition];
   const { shadow } = positionClasses[framePosition];
+
+  const animationClass =
+    "transition duration-200 ease-in-out transform hover:scale-105";
 
   return (
     <div
       style={{ height: imgHeight, width: imgWidth }}
       className={`relative z-30 ${margin}`}>
       <div
-        className={`absolute w-full h-full bg-cover shadow-black ${frameRounded} ${shadow}`}
-        style={{ backgroundImage: `url('${imgSrc}')`, zIndex: 40 }}
-      />
+        className={`absolute flex justify-center items-center w-full h-full bg-cover shadow-black ${frameRounded} ${shadow} ${animationClass}`}
+        style={{ backgroundImage: `url('${imgSrc}')`, zIndex: 40 }}>
+        {children}
+      </div>
       <div
         className={`absolute w-full h-full ${position} ${frameColor} ${frameRounded}`}
         style={{ zIndex: 30 }}
