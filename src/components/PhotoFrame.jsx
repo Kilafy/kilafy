@@ -22,6 +22,7 @@
  * @param {string} [props.frameRounded="rounded-lg"] - The Tailwind CSS class for the rounded corners of the frame.
  * @param {string} [props.frameColor="bg-color-1"] - The Tailwind CSS class for the background color of the frame.
  * @param {string} [props.framePosition="topLeft"] - The position of the frame within the container. Possible values are "topLeft", "topRight", "bottomLeft", and "bottomRight".
+ * @param {ReactNode} props.children - The children elements to be displayed inside the frame. (Optional)
  *
  * @returns {JSX.Element} The rendered PhotoFrame component.
  */
