@@ -1,4 +1,5 @@
 import PhotoFrame from "./PhotoFrame";
+import cross from "/assets/elements/cross.svg";
 import { aboutUsContent } from "../constants";
 
 const renderTeamMember = () => {
@@ -42,7 +43,15 @@ const AboutUs = () => {
           {aboutUsContent.description}
         </p>
       </div>
+
       {renderTeamMember()}
+
+      <div className="flex w-full justify-between gap-3 px-4 mb-16 md:mb-36 md:justify-center md:gap-6 lg:gap-12 xl:gap-16">
+        <div className="flex justify-center items-center aspect-square w-1/3 max-h-[324px] max-w-[324px] p-12 bg-color-1 rounded-lg md:p-20 md:w-1/2">
+          <img src={cross}/>
+        </div>
+        <p className="p flex items-center w-2/3 md:w-1/2 md:leading-6 lg:leading-10">{aboutUsContent.teamDescription}</p>
+      </div>
     </>
   );
 };

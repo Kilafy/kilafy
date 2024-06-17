@@ -31,13 +31,13 @@ export const headerContent = {
 
 export const heroContent = {
   title: "Impulsamos tu visión con tecnología de vanguardia.",
-  background: "/assets/images/IMG_20.webp",
+  background: "/assets/images/backgrounds/IMG_20.webp",
   backgroundAlt: "Desk with a computer, glasses and cup of coffee",
 };
 
 export const aboutUsContent = {
   title: "Nosotros",
-  sideImgSrc: "/assets/images/IMG_5.webp",
+  sideImgSrc: "/assets/images/backgrounds/IMG_5.webp",
   sideImgAlt: "Man programming",
   description:
     "En Kilafy, buscamos crear soluciones digitales que transforman la manera en que las empresas interactúan \
@@ -61,7 +61,7 @@ export const aboutUsContent = {
       id: "2",
       name: "Miguel Calvache",
       role: "Ingeniero de sistemas",
-      photo: "/assets/images/team/Andres_Caro.webp",
+      photo: "/assets/images/team/Miguel_Calvache.webp",
     },
     {
       id: "3",
@@ -74,4 +74,7 @@ export const aboutUsContent = {
     width: "324px",
     height: "324px",
   },
+  teamDescription: "Contamos con un equipo de profesionales de la universidad EAFIT apasionados y eficientes, \
+    cada uno con habilidades únicas que abarcan todo el espectro del desarrollo de software. Trabajamos en \
+    conjunto para ofrecer soluciones integrales y personalizadas a cada uno de nuestros clientes.",
 };

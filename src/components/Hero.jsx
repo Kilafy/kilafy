@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center w-full min-h-fit text-center p-8 m-8 text-color-2 z-10 bg-color-3/60 rounded-sm">
+      <div className="flex items-center justify-center w-full min-h-fit text-center py-8 px-4 m-4 text-color-2 z-10 bg-color-3/60 rounded-sm md:p-8 md:m-8">
         <h1 className="h1">{heroContent.title}</h1>
       </div>
     </div>
