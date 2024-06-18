@@ -122,3 +122,28 @@ export const servicesContent = {
     url: "#contacto",
   },
 };
+
+export const metodologyContent = [
+  {
+    id: "0",
+    phaseName: "1. Planear",
+    description:
+      "Antes de embarcarnos en cualquier desarrollo, en Kilafy buscamos conocer a profundidad las \
+      necesidades de nuestros clientes para garantizar el éxito del proyecto.",
+  },
+  {
+    id: "1",
+    phaseName: "2. Desarrollar",
+    description:
+      "De la mano del equipo profesional de Kilafy, tu idea se convierte en una realidad digital. \
+      Creamos productos con las mejores prácticas de desarrollo y tecnología de vanguardia.",
+  },
+  {
+    id: "2",
+    phaseName: "3. Entregar",
+    description:
+      "La retroalimentación del cliente es esencial para un buen desarrollo de software, es por eso que \
+      en Kilafy entregamos productos de manera continua, iterativa e incremental para cumplir con las \
+      necesidades y expectativas de nuestros clientes.",
+  },
+];

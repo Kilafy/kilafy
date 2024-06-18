@@ -37,7 +37,7 @@ const AboutUs = () => {
             alt={aboutUsContent.sideImgAlt}
             className="bg-color-2 lg:w-1/2 lg:h-full object-cover"
           />
-          <p className="p bg-color-1 p-7 leading-6 lg:flex lg:items-center lg:h-full lg:w-1/2 lg:p-10 xl:px-16 lg:leading-10">
+          <p className="p bg-color-1 p-7 leading-6 text-justify lg:flex lg:items-center lg:h-full lg:w-1/2 lg:p-10 xl:px-16 lg:leading-10">
             {aboutUsContent.description}
           </p>
         </div>
@@ -51,7 +51,7 @@ const AboutUs = () => {
           <div className="flex justify-center items-center aspect-square w-1/3 max-h-[324px] max-w-[324px] p-12 bg-color-1 rounded-lg md:p-20 md:w-1/2">
             <img src={cross} />
           </div>
-          <p className="p flex items-center w-2/3 md:w-1/2 md:leading-6 lg:leading-10">
+          <p className="p flex items-center w-2/3 md:w-1/2 text-justify md:leading-6 lg:leading-10">
             {aboutUsContent.teamDescription}
           </p>
         </div>
