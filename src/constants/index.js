@@ -147,3 +147,33 @@ export const metodologyContent = [
       necesidades y expectativas de nuestros clientes.",
   },
 ];
+
+export const pastProjectsContent = {
+  titleFirstText: "Algunos de nuestros",
+  titleSecondText: "trabajos pasados!",
+  projects: [
+    {
+      id: "0",
+      photo: "/assets/images/backgrounds/IMG_1.webp",
+      metadata: {
+        name: "headphones-store",
+      }
+    },
+    {
+      id: "1",
+      photo: "/assets/images/backgrounds/IMG_1.webp",
+      metadata: {
+        name: "medusa-earth",
+      }
+    },
+    {
+      id: "2",
+      photo: "/assets/images/backgrounds/IMG_1.webp",
+      metadata: {
+        name: "freemove-training",
+      }
+    },
+  ],
+  sliderSize: 3,
+  slideTimeout: 1, //Seconds
+};
