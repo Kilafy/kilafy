@@ -147,3 +147,21 @@ export const metodologyContent = [
       necesidades y expectativas de nuestros clientes.",
   },
 ];
+
+export const contactUsContent = {
+  title: "Contacto",
+  socialMedia: [
+    {
+      id: "0",
+      name: "Email",
+      href: "mailto:kilafymaster@gmail.com",
+      value: "kilafymaster@gmail.com",
+    },
+    {
+      id: "1",
+      name: "WhatsApp",
+      href: "https://wa.me/3165266949?text=¡Hola,%20equipo%20de%20Kilafy!%0AEstoy%20interesado%20en%20sus%20servicios.",
+      value: "+57 316 526 6949",
+    },
+  ],
+};
