@@ -14,18 +14,17 @@ const PastProjects = () => {
       </div>
 
       {/* This is the container of the past projects slider */}
-      <div>
+      <div className="w-full">
         <Slider
           dots={true}
-          arrows={true}
+          arrows={false}
           infinite={true}
           speed={500}
           slidesToShow={3}
           slidesToScroll={1}
           centerMode={true}
-          centerPadding="0px"
-          adaptiveHeight={true}
-        >
+          centerPadding="110px"
+          >
           {pastProjectsContent.projects.map((project) => (
             <PhotoFrame
               key={project.id}
@@ -34,7 +33,7 @@ const PastProjects = () => {
               imgHeight={500}
               frameRounded="rounded-lg"
               frameColor="bg-color-1"
-              framePosition="topLeft"
+              framePosition="topRight"
             />
           ))}
         </Slider>

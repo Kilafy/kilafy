@@ -154,23 +154,29 @@ export const pastProjectsContent = {
   projects: [
     {
       id: "0",
-      photo: "/assets/images/backgrounds/IMG_1.webp",
+      photo: "/assets/projects/headphones.webp",
       metadata: {
         name: "headphones-store",
       }
     },
     {
       id: "1",
-      photo: "/assets/images/backgrounds/IMG_1.webp",
+      photo: "/assets/projects/medusa.webp",
       metadata: {
         name: "medusa-earth",
       }
     },
     {
       id: "2",
-      photo: "/assets/images/backgrounds/IMG_1.webp",
+      photo: "/assets/projects/freemove.webp",
       metadata: {
         name: "freemove-training",
+      }
+    },{
+      id: "3",
+      photo: "/assets/projects/krypto.webp",
+      metadata: {
+        name: "krypto",
       }
     },
   ],

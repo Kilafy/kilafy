@@ -50,6 +50,11 @@ const positionClasses = {
     margin: "mb-[20px] mr-[20px]",
     shadow: "shadow-bottom-right",
   },
+  bottomLeftTopRight: {
+    position: "bottom-[-20px] right-[-20px]",
+    margin: "mb-[20px] mr-[20px]",
+    shadow: "shadow-bottom-right",
+  },
 };
 
 const PhotoFrame = ({
@@ -71,6 +76,11 @@ const PhotoFrame = ({
     <div
       style={{ height: imgHeight, width: imgWidth }}
       className={`relative z-30 ${margin}`}>
+        {
+          framePosition === "bottomLeftTopRight" ?
+           (<div className={`absolute flex justify-center items-center w-full h-full bg-cover shadow-black bg-red-800 top-[-20px] right-[-20px] ${frameRounded} ${shadow} ${animationClass}`}></div>)
+            : null
+          }
       <div
         className={`absolute flex justify-center items-center w-full h-full bg-cover shadow-black ${frameRounded} ${shadow} ${animationClass}`}
         style={{ backgroundImage: `url('${imgSrc}')`, zIndex: 40 }}>
