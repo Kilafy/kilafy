@@ -1,3 +1,10 @@
+export const WhatsApp = {
+  src: "/assets/social_media/WhatsApp.webp",
+  alt: "WhatsApp",
+  hoverMessage: "¡Hola! ¿Necesitas ayuda?",
+  href: "https://wa.me/3165266949?text=¡Hola,%20equipo%20de%20Kilafy!%0AEstoy%20interesado%20en%20sus%20servicios.",
+};
+
 export const headerContent = {
   logo: "/assets/logo/svg/Logo_Negro_Sin_Fondo.svg",
   logoAlt: "Kilafy",
@@ -48,25 +55,25 @@ export const aboutUsContent = {
     {
       id: "0",
       name: "Andrés Caro",
-      role: "Ingeniero de sistemas",
+      role: "Desarrollador Frontend",
       photo: "/assets/images/team/Andres_Caro.webp",
     },
     {
       id: "1",
       name: "Felipe Arredondo",
-      role: "Ingeniero de sistemas",
+      role: "Arquitecto de Soluciones",
       photo: "/assets/images/team/Andres_Caro.webp",
     },
     {
       id: "2",
       name: "Miguel Calvache",
-      role: "Ingeniero de sistemas",
+      role: "Gestor de Proyectos",
       photo: "/assets/images/team/Miguel_Calvache.webp",
     },
     {
       id: "3",
       name: "Camilo Álvarez",
-      role: "Ingeniero de sistemas",
+      role: "Desarrollador Backend",
       photo: "/assets/images/team/Andres_Caro.webp",
     },
   ],
@@ -75,7 +82,7 @@ export const aboutUsContent = {
     height: "324px",
   },
   teamDescription:
-    "Contamos con un equipo de profesionales de la universidad EAFIT apasionados y eficientes, \
+    "Contamos con un equipo de profesionales en formación de la universidad EAFIT apasionados y eficientes, \
     cada uno con habilidades únicas que abarcan todo el espectro del desarrollo de software. Trabajamos en \
     conjunto para ofrecer soluciones integrales y personalizadas a cada uno de nuestros clientes.",
 };
@@ -96,9 +103,9 @@ export const servicesContent = {
       id: "0",
       name: "Página web básica",
       description:
-        "Este paquete ofrece una página web tipo landing page dando una solución completa \
-        y profesional para cualquier empresa que necesite una presencia en línea efectiva para \
-        darse a conoceren internet.",
+        "Este paquete ofrece una página web tipo landing page y/o e-commerce dando una solución \
+        completa y profesional para cualquier empresa que necesite una presencia en línea efectiva \
+        para darse a conocer en internet.",
     },
     {
       id: "1",
@@ -182,4 +189,22 @@ export const pastProjectsContent = {
   ],
   sliderSize: 3,
   slideTimeout: 1, //Seconds
+};
+
+export const contactUsContent = {
+  title: "Contacto",
+  socialMedia: [
+    {
+      id: "0",
+      name: "Email",
+      href: "mailto:kilafymaster@gmail.com",
+      value: "kilafymaster@gmail.com",
+    },
+    {
+      id: "1",
+      name: "WhatsApp",
+      href: "https://wa.me/3165266949?text=¡Hola,%20equipo%20de%20Kilafy!%0AEstoy%20interesado%20en%20sus%20servicios.",
+      value: "+57 316 526 6949",
+    },
+  ],
 };
