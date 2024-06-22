@@ -155,6 +155,42 @@ export const metodologyContent = [
   },
 ];
 
+export const pastProjectsContent = {
+  titleFirstText: "Algunos de nuestros",
+  titleSecondText: "trabajos pasados!",
+  projects: [
+    {
+      id: "0",
+      photo: "/assets/projects/headphones.webp",
+      metadata: {
+        name: "headphones-store",
+      }
+    },
+    {
+      id: "1",
+      photo: "/assets/projects/medusa.webp",
+      metadata: {
+        name: "medusa-earth",
+      }
+    },
+    {
+      id: "2",
+      photo: "/assets/projects/freemove.webp",
+      metadata: {
+        name: "freemove-training",
+      }
+    },{
+      id: "3",
+      photo: "/assets/projects/krypto.webp",
+      metadata: {
+        name: "krypto",
+      }
+    },
+  ],
+  sliderSize: 3,
+  slideTimeout: 1, //Seconds
+};
+
 export const contactUsContent = {
   title: "Contacto",
   socialMedia: [
