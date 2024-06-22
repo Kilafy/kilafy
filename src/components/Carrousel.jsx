@@ -4,7 +4,7 @@ import PhotoFrame from "./PhotoFrame";
 
 const PastProjects = () => {
   return (
-    <div>
+    <div className="mb-10">
       {/* This is the title box of PastProjects section */}
       <div className="my-10 flex flex-col items-center">
         <div className="h3 rounded-sm p- bg-color-4 mx inline-flex m-auto">
