@@ -88,7 +88,42 @@ export default {
         },
       },
       screens: {
-        '3xl': '1900px',
+        "3xl": "1900px",
+      },
+      animation: {
+        fadeInUp: "fadeInUp 0.3s ease-out",
+        slideIn: "slideIn 0.3s ease-out",
+        bounce: "bounce 1.5s infinite",
+      },
+      keyframes: {
+        fadeInUp: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(100%)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
+        },
+        slideIn: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(20%)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
+        },
+        bounce: {
+          "0%, 100%": {
+            transform: "translateX(0)",
+          },
+          "50%": {
+            transform: "translateX(-8%)",
+          },
+        },
       },
     },
   },

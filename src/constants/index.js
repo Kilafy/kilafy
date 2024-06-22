@@ -1,3 +1,10 @@
+export const WhatsApp = {
+  src: "/assets/social_media/WhatsApp.webp",
+  alt: "WhatsApp",
+  hoverMessage: "¡Hola! ¿Necesitas ayuda?",
+  href: "https://wa.me/3165266949?text=¡Hola,%20equipo%20de%20Kilafy!%0AEstoy%20interesado%20en%20sus%20servicios.",
+};
+
 export const headerContent = {
   logo: "/assets/logo/svg/Logo_Negro_Sin_Fondo.svg",
   logoAlt: "Kilafy",
