@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
+import animatePlugin from "tailwindcss-animate";
 
 // ----------------------------------- [ Components ] -----------------------------------
 // Text components
@@ -72,8 +73,22 @@ const components = {
 
 // ----------------------------------- [ Tailwind Config ] -----------------------------------
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: ["class"],
+  content: [
+    './pages/**/*.{js,jsx}',
+    './components/**/*.{js,jsx}',
+    './app/**/*.{js,jsx}',
+    './src/**/*.{js,jsx}',
+  ],
+  prefix: "",
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
     extend: {
       fontFamily: {
         baskerville: ["var(--font-baskerville)", ...fontFamily.sans],
@@ -91,11 +106,21 @@ export default {
         "3xl": "1900px",
       },
       animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
         fadeInUp: "fadeInUp 0.3s ease-out",
         slideIn: "slideIn 0.3s ease-out",
         bounce: "bounce 1.5s infinite",
       },
       keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
         fadeInUp: {
           "0%": {
             opacity: 0,
@@ -138,5 +163,6 @@ export default {
       // Utilities
       addUtilities({});
     }),
+    animatePlugin,
   ],
 };
