@@ -30,7 +30,7 @@ const renderTeamMember = () => {
 const AboutUs = () => {
   return (
     <>
-      <section id="nosotros" className="flex flex-col">
+      <section className="flex flex-col">
         <div className="flex flex-col items-center justify-center w-full h-full lg:flex-row lg:h-[500px]">
           <p className="p bg-color-1 p-7 leading-6 text-justify lg:flex lg:items-center lg:h-full lg:w-1/2 lg:p-10 xl:px-16 lg:leading-10">
             {aboutUsContent.description}
@@ -41,7 +41,7 @@ const AboutUs = () => {
             className="bg-color-2 lg:w-1/2 lg:h-full object-cover"
           />
         </div>
-        <h2 className="h2 text-center w-full p-4 my-16 mt-24 md:my-20 md:mt-36">
+        <h2 id="nosotros" className="h2 text-center w-full p-4 my-16 mt-24 md:my-20 md:mt-36">
           {aboutUsContent.title}
         </h2>
 

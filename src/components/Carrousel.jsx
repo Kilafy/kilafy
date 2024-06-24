@@ -17,7 +17,7 @@ const PastProjects = () => {
   const is2XlOrLarger = useMediaQuery("(min-width: 1536px)");
 
   return (
-    <div className="mb-10">
+    <section id="clientes" className="mb-10">
       <div className="my-10 flex flex-col items-center">
         <div className="h3 rounded-sm p- bg-color-4 mx inline-flex m-auto">
           {pastProjectsContent.titleFirstText}
@@ -79,7 +79,7 @@ const PastProjects = () => {
           </div>
         </Carousel>
       </div>
-    </div>
+    </section>
   );
 };
 

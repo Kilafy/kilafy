@@ -71,7 +71,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="p-8 bg-color-3 text-color-2 lg:p-16">
+    <section id="contacto" className="p-8 bg-color-3 text-color-2 lg:p-16">
       <div className="flex flex-col lg:flex-row lg:gap-14 xl:gap-40 2xl:gap-60">
         {renderSocialMedia()}
 
@@ -142,7 +142,7 @@ const ContactUs = () => {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 
