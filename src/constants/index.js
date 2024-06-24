@@ -58,24 +58,24 @@ export const aboutUsContent = {
       role: "Desarrollador Frontend",
       photo: "/assets/images/team/Andres_Caro.webp",
     },
-    {
-      id: "1",
-      name: "Felipe Arredondo",
-      role: "Arquitecto de Soluciones",
-      photo: "/assets/images/team/Andres_Caro.webp",
-    },
+    // {
+    //   id: "1",
+    //   name: "Felipe Arredondo",
+    //   role: "Arquitecto de Soluciones",
+    //   photo: "/assets/images/team/Andres_Caro.webp",
+    // },
     {
       id: "2",
       name: "Miguel Calvache",
       role: "Gestor de Proyectos",
       photo: "/assets/images/team/Miguel_Calvache.webp",
     },
-    {
-      id: "3",
-      name: "Camilo Álvarez",
-      role: "Desarrollador Backend",
-      photo: "/assets/images/team/Andres_Caro.webp",
-    },
+    // {
+    //   id: "3",
+    //   name: "Camilo Álvarez",
+    //   role: "Desarrollador Backend",
+    //   photo: "/assets/images/team/Andres_Caro.webp",
+    // },
   ],
   teamPhotoSize: {
     width: "324px",
@@ -162,29 +162,34 @@ export const pastProjectsContent = {
     {
       id: "0",
       photo: "/assets/projects/headphones.webp",
+      url: "https://headphonesstore.vercel.app/",
       metadata: {
         name: "headphones-store",
-      }
+      },
     },
     {
       id: "1",
       photo: "/assets/projects/medusa.webp",
+      url: "https://medusa.earth/",
       metadata: {
         name: "medusa-earth",
-      }
+      },
     },
     {
       id: "2",
-      photo: "/assets/projects/freemove.webp",
-      metadata: {
-        name: "freemove-training",
-      }
-    },{
-      id: "3",
       photo: "/assets/projects/krypto.webp",
+      url: "https://krypto-web3.vercel.app/",
       metadata: {
         name: "krypto",
-      }
+      },
+    },
+    {
+      id: "3",
+      photo: "/assets/projects/freemove.webp",
+      url: "https://www.freemovetraining.com/",
+      metadata: {
+        name: "freemove-training",
+      },
     },
   ],
   sliderSize: 3,
