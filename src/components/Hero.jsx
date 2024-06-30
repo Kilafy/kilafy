@@ -2,7 +2,7 @@ import { heroContent } from "../constants";
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-center h-[calc(100vh-71px)] lg:h-[calc(100vh-79px)] bg-color-3 relative">
+    <section id="hero" className="flex items-center justify-center h-[calc(100vh-71px)] lg:h-[calc(100vh-79px)] bg-color-3 relative">
       <div className="absolute top-0 left-0 w-full h-full z-0">
         <div className="relative w-full h-full">
           <img
@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="flex items-center justify-center w-4/5 min-h-fit text-center py-8 px-4 m-4 text-color-2 z-10 bg-color-3/60 rounded-sm md:w-full md:p-8 md:m-8">
         <h1 className="h2 md:h1">{heroContent.title}</h1>
       </div>
-    </div>
+    </section>
   );
 };
 

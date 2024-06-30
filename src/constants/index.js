@@ -58,24 +58,24 @@ export const aboutUsContent = {
       role: "Desarrollador Frontend",
       photo: "/assets/images/team/Andres_Caro.webp",
     },
-    // {
-    //   id: "1",
-    //   name: "Felipe Arredondo",
-    //   role: "Arquitecto de Soluciones",
-    //   photo: "/assets/images/team/Andres_Caro.webp",
-    // },
+    {
+      id: "1",
+      name: "Felipe Arredondo",
+      role: "Arquitecto de Soluciones",
+      photo: "/assets/images/team/Luis_Felipe.webp",
+    },
     {
       id: "2",
       name: "Miguel Calvache",
       role: "Gestor de Proyectos",
       photo: "/assets/images/team/Miguel_Calvache.webp",
     },
-    // {
-    //   id: "3",
-    //   name: "Camilo Álvarez",
-    //   role: "Desarrollador Backend",
-    //   photo: "/assets/images/team/Andres_Caro.webp",
-    // },
+    {
+      id: "3",
+      name: "Camilo Álvarez",
+      role: "Desarrollador Backend",
+      photo: "/assets/images/team/Camilo_Alvarez.webp",
+    },
   ],
   teamPhotoSize: {
     width: "324px",
